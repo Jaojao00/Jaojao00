@@ -10,6 +10,7 @@ items:
     slots:
     - '0-54'
     display_name: ''
+#################################################################
   vip_rank:
     material: GOLD_BLOCK
     slot: 10
@@ -30,6 +31,25 @@ items:
       - '[message] &abạn đã mua &&eVip Ranks &agiá $10000'
       - '[close]'
 #################################################################
+  pro_rank:
+    material: DIAMOND_BLOCK
+    slot: 15
+    lore:
+      - '&7Buy &BPro Ranks'
+      - ''
+      - '&7- Nhấn chuột trái: &bĐể mua 1 &7giá &a$50.000'
+    left_click_requirement:
+      requirements:
+        has_money:
+        type: has money
+        amount: 50000
+      deny_commands:
+        - '[message] &cbạn không đủ tiền hoặc túi đã đầy!'
+    left_click_commands:                                             
+      - '[console] lp user %player_name% parent set vip'
+      - '[takemoney] 50000'
+      - '[message] &abạn đã mua &&eVip Ranks &agiá $50000'
+      - '[close]'
 
 
 
