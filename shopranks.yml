@@ -1,38 +1,29 @@
 menu_title: '&#FFCCFFMENU RANK'
-open_command: 
-  - RANK
-  - RANKS
+open_command:
   - rank
   - ranks
-register_command: true  
 size: 54
-open_requirement:
-  requirements:
-    permission:
-      type: has permission
-      permission: deluxemenus.open
-      deny_commands:
-        - '[message] &cbạn không có quyền mở menu này!'
 items:
-  vip_rank':
-    material: GOLDSWORD
+  vip_rank:
+    material: GOLD_BLOCK
     slot: 10
     lore:
-    - '&7Buy &eVip Ranks'
-    - ''
-    - '&7- Nhấn chuột trái: &bĐể mua 1 &7giá &a$10.000'
-left_click_requirement:
+      - '&7Buy &eVip Ranks'
+      - ''
+      - '&7- Nhấn chuột trái: &bĐể mua 1 &7giá &a$10.000'
+    left_click_requirement:
       requirements:
         has_money:
-          type: has money
-          amount: 10000
+        type: has money
+        amount: 10000
       deny_commands:
-      - '[message] &cbạn không đủ tiền hoặc túi đã đầy!'
-left_click_commands:                                                #phần này là nhấn để mua
-    - '[console] lp user %player_name% parent set vip'
-    - '[takemoney] 10000'
-    - '[message] &abạn đã mua &&eVip Ranks &agiá $10000'
-
+        - '[message] &cbạn không đủ tiền hoặc túi đã đầy!'
+    left_click_commands:                                             
+      - '[console] lp user %player_name% parent set vip'
+      - '[takemoney] 10000'
+      - '[message] &abạn đã mua &&eVip Ranks &agiá $10000'
+      - '[close]'
+#################################################################
 
 
 
