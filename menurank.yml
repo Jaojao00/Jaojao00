@@ -1,17 +1,20 @@
-menu_title: 'Requirements Menu'
+menu_title: '&#FFCCFFMENU RANK'
 open_command: 
-  - sel
-  - sels  
+  - RANK
+  - RANKS
+  - rank
+  - ranks
+register_command: true  
 size: 54
 open_requirement:
   requirements:
     permission:
       type: has permission
-      permission: deluxemenus.meber
+      permission: deluxemenus.open
       deny_commands:
         - '[message] &cbạn không có quyền mở menu này!'
 items:
-  gold_block':
+  vip_rank':
     material: GOLD_BLOCK
     slot: 10
     lore:
