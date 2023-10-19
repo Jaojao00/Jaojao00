@@ -1,0 +1,69 @@
+menu_title: '&#FFCCFFMENU RANK'
+open_command: 
+  - RANK
+  - RANKS
+  - rank
+  - ranks
+register_command: true  
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.open
+      deny_commands:
+        - '[message] &cbạn không có quyền mở menu này!'
+items:
+  vip_rank':
+    material: GOLD_BLOCK
+    slot: 10
+    lore:
+    - '&7Buy &eVip Ranks'
+    - ''
+    - '&7- Nhấn chuột trái: &bĐể mua 1 &7giá &a$10.000'
+left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 10000
+      deny_commands:
+      - '[message] &cbạn không đủ tiền hoặc túi đã đầy!'
+left_click_commands:                                                #phần này là nhấn để mua
+    - '[console] lp user %player_name% parent set vip'
+    - '[takemoney] 10000'
+    - '[message] &abạn đã mua &&eVip Ranks &agiá $10000
+right_click_requirement:                                           #phần này là kiểm tra xem mình có đủ điều kiện để mua ko 
+      requirements:
+        has_item:
+          type: has item
+          material: 'GOLD_BLOCK'
+          amount: 1
+        deny_commands:
+        - '[message] &cBạn không có đủ &6GOLD_BLOCK &cđể bán! cần chuẩn: 1 &6GOLD_BLOCK!.'
+right_click_commands:                                                                                  #nếu đủ nó sẽ thực hiện giao dịch 
+    - '[console] clear %player_name% GOLD_BLOCK 1'
+    - '[console] eco give %player_name% 50'
+    - '[message] &aYou sold 1 &6GOLD_BLOCK &afor $50'
+shift_left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 6400
+        deny_commands:
+        - '[message] &cBạn không có đủ tiền cho việc này!'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
