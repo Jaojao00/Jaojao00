@@ -15,7 +15,7 @@ open_requirement:
         - '[message] &cbạn không có quyền mở menu này!'
 items:
   vip_rank':
-    material: GOLD_BLOCK
+    material: GOLDSWORD
     slot: 10
     lore:
     - '&7Buy &eVip Ranks'
@@ -31,26 +31,7 @@ left_click_requirement:
 left_click_commands:                                                #phần này là nhấn để mua
     - '[console] lp user %player_name% parent set vip'
     - '[takemoney] 10000'
-    - '[message] &abạn đã mua &&eVip Ranks &agiá $10000
-right_click_requirement:                                           #phần này là kiểm tra xem mình có đủ điều kiện để mua ko 
-      requirements:
-        has_item:
-          type: has item
-          material: 'GOLD_BLOCK'
-          amount: 1
-        deny_commands:
-        - '[message] &cBạn không có đủ &6GOLD_BLOCK &cđể bán! cần chuẩn: 1 &6GOLD_BLOCK!.'
-right_click_commands:                                                                                  #nếu đủ nó sẽ thực hiện giao dịch 
-    - '[console] clear %player_name% GOLD_BLOCK 1'
-    - '[console] eco give %player_name% 50'
-    - '[message] &aYou sold 1 &6GOLD_BLOCK &afor $50'
-shift_left_click_requirement:
-      requirements:
-        has_money:
-          type: has money
-          amount: 6400
-        deny_commands:
-        - '[message] &cBạn không có đủ tiền cho việc này!'
+    - '[message] &abạn đã mua &&eVip Ranks &agiá $10000'
 
 
 
