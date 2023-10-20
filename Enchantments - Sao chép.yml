@@ -1,0 +1,2074 @@
+# Enchantment Types:
+# - Armor ~ All armor
+# - Helmet
+# - Boots
+# - Bow
+# - Axe
+# - Sword
+# - PickAxe
+# - Hoe
+# - Tool ~ Pickaxes, Axes, Shovels, Hoes, and Shears
+# - All ~ All items listed here
+##########
+# Chance System
+#
+# Chance-System:
+#   Base: # Starting chance.
+#   Increase: # The amount it goes up each level.
+##########
+Enchantments:
+  #Do not change this line.
+  Glowing:
+    Enabled: true
+    Name: 'Glowing'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Helmet'
+    Info:
+      Name: '&fGlowing'
+      Description:
+        - '&7Cho bạn tầm nhìn ban đêm'
+        - '&7khi bạn đeo nó vào người.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Mức tối đa: &d1'
+        - '&7Áp dụng cho: &dMũ bảo hiểm'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  BurnShield:
+    Enabled: true
+    Name: 'Obsidian Shield'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&eObsidian Shield'
+      Description:
+        - '&7Cung cấp khả năng chống cháy'
+        - '&7khi bạn mặc nó vào.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Mức tối đa: &d1'
+        - '&7Áp dụng cho: &dArmor'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Piercing:
+    Enabled: true
+    Name: 'Piercing'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Bow'
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&ePiercing'
+      Description:
+        - '&7Có cơ hội giao dịch'
+        - '&7gây sát thương gấp đôi cho kẻ thù của bạn.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Mức tối đa: &d3'
+        - '&7Áp dụng cho: &dBows'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  OverLoad:
+    Enabled: true
+    Name: 'Overload'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&6Overload'
+      Description:
+        - '&7Gives a health boost'
+        - '&7when you put it on.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  SelfDestruct:
+    Enabled: true
+    Name: 'Self Destruct'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&aSelf Destruct'
+      Description:
+        - '&7When you die there will'
+        - '&7be an explosion where you died.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Springs:
+    Enabled: true
+    Name: 'Springs'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Boots'
+    Info:
+      Name: '&bSprings'
+      Description:
+        - '&7Gives you a small jump'
+        - '&7boost while wearing it.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dBoots'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  Gears:
+    Enabled: true
+    Name: 'Gears'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Boots'
+    Info:
+      Name: '&6Gears'
+      Description:
+        - '&7Gives a speed boost'
+        - '&7when you put it on.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dBoots'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Hulk:
+    Enabled: false
+    Name: 'Hulk'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 2
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&6Hulk'
+      Description:
+        - '&7Gives strength, damage resistance,'
+        - '&7and slowness while wearing it.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d2'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Mermaid:
+    Enabled: true
+    Name: 'Mermaid'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Helmet'
+    Info:
+      Name: '&fMermaid'
+      Description:
+        - '&7Gives you water breathing'
+        - '&7when you put it on.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dHelmets'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  Ninja:
+    Enabled: false
+    Name: 'Ninja'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 2
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&6Ninja'
+      Description:
+        - '&7Gives speed and health boost'
+        - '&7when you put it on.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d2'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Vampire:
+    Enabled: true
+    Name: 'Vampire'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&eVampire'
+      Description:
+        - '&7Has a chance to heal'
+        - '&7you when fighting.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  LifeSteal:
+    Enabled: true
+    Name: 'Lifesteal'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&6Lifesteal'
+      Description:
+        - '&7Has a chance to steal'
+        - '&7health from your enemy.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Doctor:
+    Enabled: true
+    Name: 'Doctor'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Bow'
+    Info:
+      Name: '&bDoctor'
+      Description:
+        - '&7Has a chance to'
+        - '&7heal a player you hit'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dBows'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  Boom:
+    Enabled: true
+    Name: 'Boom'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Bow'
+    Chance-System:
+      Base: 20
+      Increase: 10
+    Info:
+      Name: '&aBoom'
+      Description:
+        - '&7Has a chance to spawn'
+        - '&7TnT where the arrow lands.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dBows'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Venom:
+    Enabled: true
+    Name: 'Venom'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Bow'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&eVenom'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy poison.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dBows'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  DoubleDamage:
+    Enabled: true
+    Name: 'Double Damage'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 5
+      Increase: 1
+    Info:
+      Name: '&eDouble Damage'
+      Description:
+        - '&7Has a chance to'
+        - '&7deal double damage.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  SlowMo:
+    Enabled: true
+    Name: 'Slow Motion'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&bSlow Motion'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy slowness.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  Blindness:
+    Enabled: true
+    Name: 'Blindness'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 2
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 5
+      Increase: 1
+    Info:
+      Name: '&eBlindness'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy blindness.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d2'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Viper:
+    Enabled: true
+    Name: 'Viper'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&bViper'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy poison.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  AntiGravity:
+    Enabled: true
+    Name: 'Anti Gravity'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Boots'
+    Info:
+      Name: '&bAnti Gravity'
+      Description:
+        - '&7Gives a high jump boost'
+        - '&7when you put it on.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dBoots'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  FastTurn:
+    Enabled: true
+    Name: 'Fast Turn'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 2
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&eFast Turn'
+      Description:
+        - '&7Has a chance to'
+        - '&7deal more damage.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d2'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  LightWeight:
+    Enabled: true
+    Name: 'Feather Weight'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&aFeather Weight'
+      Description:
+        - '&7Has a chance to give'
+        - '&7you haste when fighting.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Blessed:
+    Enabled: true
+    Name: 'Blessed'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Axe'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&eBlessed'
+      Description:
+        - '&7Has a chance to remove'
+        - '&7all negative effects.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dAxes'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  FeedMe:
+    Enabled: true
+    Name: 'Glutton'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Axe'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&fGlutton'
+      Description:
+        - '&7Has a chance to'
+        - '&7feed you while fighting.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dAxes'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  Dizzy:
+    Enabled: true
+    Name: 'Dizzy'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Axe'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&6Dizzy'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy confusion.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dAxes'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Berserk:
+    Enabled: true
+    Name: 'Berserk'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Axe'
+    Chance-System:
+      Base: 10
+      Increase: 1
+    Info:
+      Name: '&eBerserk'
+      Description:
+        - '&7Has a chance to give you'
+        - '&7strength and mining fatigue.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dAxes'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Cursed:
+    Enabled: true
+    Name: 'Cursed'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Axe'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&aCursed'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy mining fatigue.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dAxes'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Rekt:
+    Enabled: true
+    Name: 'Rekt'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Axe'
+    Chance-System:
+      Base: 5
+      Increase: 1
+    Info:
+      Name: '&eRekt'
+      Description:
+        - '&7Has a chance to'
+        - '&7deal double the damage.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dAxes'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Enlightened:
+    Enabled: true
+    Name: 'Enlightened'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Armor'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&6Enlightened'
+      Description:
+        - '&7Has a chance to heal'
+        - '&7you while being attacked.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Freeze:
+    Enabled: true
+    Name: 'Freeze'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 2
+    Enchantment-Type: 'Armor'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&bFreeze'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy slowness.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d2'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  Fortify:
+    Enabled: true
+    Name: 'Fortify'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Armor'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&eFortify'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy weakness.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Molten:
+    Enabled: true
+    Name: 'Molten'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Armor'
+    Chance-System:
+      Base: 10
+      Increase: 1
+    Info:
+      Name: '&fMolten'
+      Description:
+        - '&7Has a chance to set'
+        - '&7set your enemy on fire.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  PainGiver:
+    Enabled: true
+    Name: 'Pain Giver'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Armor'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&6Pain Giver'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy poison.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Savior:
+    Enabled: true
+    Name: 'Savior'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Armor'
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&bSavior'
+      Description:
+        - '&7Has a chance to cut your'
+        - '&7incoming damage by half.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  Nursery:
+    Enabled: true
+    Name: 'Nursery'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Armor'
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&aNursery'
+      Description:
+        - '&7Has a chance to'
+        - '&7heal you while walking.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  AutoSmelt:
+    Enabled: true
+    Name: 'Auto Smelt'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'PickAxe'
+    Chance-System:
+      Base: 25
+      Increase: 25
+    Info:
+      Name: '&fAuto Smelt'
+      Description:
+        - '&7Has a chance to auto smelt'
+        - '&7ores and give more ingots.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dPickaxes'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  Experience:
+    Enabled: true
+    Name: 'Experience'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'PickAxe'
+    Chance-System:
+      Base: 25
+      Increase: 25
+    Info:
+      Name: '&fExperience'
+      Description:
+        - '&7Has a chance to give'
+        - '&72x or more xp from ores.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dPickaxes'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  Telepathy:
+    Enabled: true
+    Name: 'Telepathy'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Tool'
+    Info:
+      Name: '&aTelepathy'
+      Description:
+        - '&7Will automatically send mined'
+        - '&7blocks to your inventory.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dAll Tools'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Haste:
+    Enabled: true
+    Name: 'Haste'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Tool'
+    Info:
+      Name: '&fHaste'
+      Description:
+        - '&7Gives you haste when'
+        - '&7holding the item in your hand.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dAll Tools'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  Oxygenate:
+    Enabled: true
+    Name: 'Oxygenate'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Tool'
+    Info:
+      Name: '&fOxygenate'
+      Description:
+        - '&7Gives you water breathing'
+        - '&7when holding item in your hand.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dAll Tools'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  IceFreeze:
+    Enabled: true
+    Name: 'Ice Freeze'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Bow'
+    Chance-System:
+      Base: 25
+      Increase: 10
+    Info:
+      Name: '&bIce Freeze'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy slowness.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dBows'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  Lightning:
+    Enabled: true
+    Name: 'Lightning'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Bow'
+    Chance-System:
+      Base: 25
+      Increase: 10
+    Info:
+      Name: '&aLightning'
+      Description:
+        - '&7Has a chance to strike'
+        - '&7lightning where the arrow lands.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dBows'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Decapitation:
+    Enabled: true
+    Name: 'Decapitation'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Axe'
+    Chance-System:
+      Base: 10
+      Increase: 10
+    Info:
+      Name: '&fDecapitation'
+      Description:
+        - '&7Has a chance to drop'
+        - '&7the player''s head on death.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dAxes'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  Confusion:
+    Enabled: true
+    Name: 'Confusion'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&6Confusion'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy confusion.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Disarmer:
+    Enabled: false
+    Name: 'Disarmer'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 5
+      Increase: 1
+    Info:
+      Name: '&6Disarmer'
+      Description:
+        - '&7Has a chance to take a random'
+        - '&7armor piece off your enemy.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Execute:
+    Enabled: true
+    Name: 'Execute'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Sword'
+    Info:
+      Name: '&6Execute'
+      Description:
+        - '&7Has a chance to get strength'
+        - '&7when your enemy is low on health.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Headless:
+    Enabled: true
+    Name: 'Headless'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 10
+      Increase: 10
+    Info:
+      Name: '&fHeadless'
+      Description:
+        - '&7Has a chance to drop'
+        - '&7your enemy''s head on death.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  Inquisitive:
+    Enabled: true
+    Name: 'Inquisitive'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 50
+      Increase: 25
+    Info:
+      Name: '&6Inquisitive'
+      Description:
+        - '&7Has a chance to double or more XP'
+        - '&7based on the enchantment level.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Insomnia:
+    Enabled: true
+    Name: 'Insomnia'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Armor'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&6Insomnia'
+      Description:
+        - '&7Gives confusion, mining fatigue, and slowness'
+        - '&7but has a high chance of doing double the damage.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Nutrition:
+    Enabled: true
+    Name: 'Nutrition'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&fNutrition'
+      Description:
+        - '&7Has a chance to feed'
+        - '&7you while fighting.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  Obliterate:
+    Enabled: true
+    Name: 'Obliterate'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&aObliterate'
+      Description:
+        - '&7Has a chance to send your'
+        - '&7enemy flying backwards.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Paralyze:
+    Enabled: true
+    Name: 'Paralyze'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&eParalyze'
+      Description:
+        - '&7Has a chance to give your enemy'
+        - '&7high mining fatigue and slowness.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  SkillSwipe:
+    Enabled: true
+    Name: 'Skill Swipe'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&aSkill Swipe'
+      Description:
+        - '&7Has a chance to steal xp from'
+        - '&7your enemy while fighting.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Snare:
+    Enabled: false
+    Name: 'Snare'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 10
+      Increase: 3
+    Info:
+      Name: '&eSnare'
+      Description:
+        - '&7Has a chance to give your'
+        - '&7enemy slowness and mining fatigue.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Trap:
+    Enabled: false
+    Name: 'Trap'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 2
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&eTrap'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy high slowness.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d2'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Wither:
+    Enabled: true
+    Name: 'Wither'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 10
+      Increase: 3
+    Info:
+      Name: '&eWither'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy high wither.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Rage:
+    Enabled: true
+    Name: 'Rage'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Info:
+      Name: '&6Rage'
+      Description:
+        - '&7Attacks will get stronger'
+        - '&7as long as you keep fighting.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Valor:
+    Enabled: true
+    Name: 'Valor'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 2
+    Enchantment-Type: 'Helmet'
+    Info:
+      Name: '&eValor'
+      Description:
+        - '&7Gives damage resistance'
+        - '&7based on your enchantment level.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d2'
+        - '&7Applies To: &dHelmets'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  SmokeBomb:
+    Enabled: true
+    Name: 'Smoke Bomb'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Helmet'
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&aSmoke Bomb'
+      Description:
+        - '&7Has a chance to blind and'
+        - '&7slow your enemy so you can escape.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dHelmets'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Drunk:
+    Enabled: true
+    Name: 'Drunk'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Helmet'
+    Info:
+      Name: '&6Drunk'
+      Description:
+        - '&7Gives strength, mining fatigue,'
+        - '&7and slowness when put on.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dHelmets'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Voodoo:
+    Enabled: true
+    Name: 'Voodoo'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Boots'
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&bVoodoo'
+      Description:
+        - '&7Has a chance to give'
+        - '&7your enemy weakness.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dBoots'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  MultiArrow:
+    Enabled: true
+    Name: 'Multi Arrow'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Bow'
+    Chance-System:
+      Base: 25
+      Increase: 10
+    Info:
+      Name: '&eMulti Arrow'
+      Description:
+        - '&7Has a chance to shoot'
+        - '&7multiple arrows at once.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dBows'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Recover:
+    Enabled: true
+    Name: 'Recover'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Helmet'
+    Info:
+      Name: '&eRecover'
+      Description:
+        - '&7When you kill a player'
+        - '&7you get absorption and regen.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dHelmets'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Cactus:
+    Enabled: true
+    Name: 'Cactus'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Boots'
+    Chance-System:
+      Base: 25
+      Increase: 25
+    Info:
+      Name: '&aCactus'
+      Description:
+        - '&7Has a chance to damage'
+        - '&7the player that hits you.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dBoots'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Rocket:
+    Enabled: true
+    Name: 'Rocket'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Boots'
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&bRocket'
+      Description:
+        - '&7If low on health there is a chance'
+        - '&7you will blast off backwards to escape.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dBoots'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  Angel:
+    Enabled: true
+    Name: 'Angel'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&eAngel'
+      Description:
+        - '&7Heals nearby faction members'
+        - '&7when you are wearing item.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  HellForged:
+    Enabled: true
+    Name: 'Rejuvenination'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 4
+    Enchantment-Type: 'Damaged-Items'
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&6Rejuvenination'
+      Description:
+        - '&7Has a chance to fix up'
+        - '&7your items as you walk.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d4'
+        - '&7Applies To: &dArmor, Weapons, Tools, Fishing Rods, and Shears'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Commander:
+    Enabled: true
+    Name: 'Commander'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Helmet'
+    Info:
+      Name: '&aCommander'
+      Description:
+        - '&7Gives nearby faction members'
+        - '&7haste when wearing it.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  StormCaller:
+    Enabled: true
+    Name: 'StormCaller'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Boots'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&7StormCaller'
+      Description:
+        - '&7Has a chance to strike your enemy'
+        - '&7down with a lightning strike.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dBoots'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  Leadership:
+    Enabled: true
+    Name: 'Leadership'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&eLeadership'
+      Description:
+        - '&7Your attacks are stronger when'
+        - '&7you have allies around you.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Implants:
+    Enabled: true
+    Name: 'Implants'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Helmet'
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&eImplants'
+      Description:
+        - '&7While moving your hunger will'
+        - '&7start to go up while equipped.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dHelmets'
+        - ''
+    Categories:
+      - 'Helmet'
+  #Do not change this line.
+  Wings:
+    Enabled: false
+    Name: 'Wings'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Boots'
+    Info:
+      Name: '&eWings'
+      Description:
+        - '&7Allows you to fly in'
+        - '&7your own territory.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dBoots'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Blast:
+    Enabled: true
+    Name: 'Blast'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'PickAxe'
+    Info:
+      Name: '&aBlast'
+      Description:
+        - '&7Phá vỡ các khối theo bán kính 3 x cấp x 3' #Level tăng độ sâu chứ không phải kích thước. Kích thước vẫn là 3x3 (9 khối)
+        - '&7tùy thuộc vào sức mạnh của bùa chú.'
+        - ''
+        - '&7Tier: &aKhông phổ biến'
+        - '&7Mức tối đa: &d3'
+        - '&7Áp dụng cho: &dPickaxes'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Furnace:
+    Enabled: true
+    Name: 'Furnace'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'PickAxe'
+    Info:
+      Name: '&fFurnace'
+      Description:
+        - '&7Luôn nung chảy quặng vào'
+        - '&7mục thay vì khối.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Mức tối đa: &d1'
+        - '&7Áp dụng cho: &dPickaxes'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  Blizzard:
+    Enabled: true
+    Name: 'Blizzard'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&bBlizzard'
+      Description:
+        - '&7Gives enemies within 3'
+        - '&7blocks slowness for a short time.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  AcidRain:
+    Enabled: true
+    Name: 'Acid Rain'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&eAcid Rain'
+      Description:
+        - '&7Gives enemies within 3'
+        - '&7blocks poison for a short time.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  SandStorm:
+    Enabled: true
+    Name: 'SandStorm'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&eSandstorm'
+      Description:
+        - '&7Gives enemies within 3 blocks'
+        - '&7blindness for a short time.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Radiant:
+    Enabled: true
+    Name: 'Radiant'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Boots'
+    Info:
+      Name: '&fRadiant'
+      Description:
+        - '&7Sets enemies within 3 blocks'
+        - '&7on fire for a short time.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dBoots'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  Intimidate:
+    Enabled: true
+    Name: 'Intimidate'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 2
+    Enchantment-Type: 'Helmet'
+    Info:
+      Name: '&bIntimidate'
+      Description:
+        - '&7Gives enemies within 3'
+        - '&7blocks weakness for a short time.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d2'
+        - '&7Applies To: &dHelmet'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  Pull:
+    Enabled: true
+    Name: 'Pull'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Bow'
+    Chance-System:
+      Base: 25
+      Increase: 10
+    Info:
+      Name: '&6Pull'
+      Description:
+        - '&7Has a chance to send'
+        - '&7the enemy you hit flying at you.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dBows'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Tamer:
+    Enabled: true
+    Name: 'Tamer'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Boots'
+    Info:
+      Name: '&eTamer'
+      Description:
+        - '&7Spawns wolves to help'
+        - '&7when you are in trouble.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dBoots'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Guards:
+    Enabled: true
+    Name: 'Guards'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Boots'
+    Info:
+      Name: '&6Guards'
+      Description:
+        - '&7Spawns in iron golems'
+        - '&7when you are in trouble.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dBoots'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Infestation:
+    Enabled: true
+    Name: 'Infestation'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 2
+    Enchantment-Type: 'Helmet'
+    Info:
+      Name: '&eInfestation'
+      Description:
+        - '&7Spawns in endermites and silverfish'
+        - '&7when you are in trouble.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dHelmets'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Necromancer:
+    Enabled: true
+    Name: 'Necromancer'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&bNecromancer '
+      Description:
+        - '&7Spawns in zombies'
+        - '&7when you are in trouble.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dArmor'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  Sticky-Shot:
+    Enabled: true
+    Name: 'Web Shooter'
+    Color: '&a'
+    BookColor: '&a'
+    MaxPower: 3
+    Enchantment-Type: 'Bow'
+    Chance-System:
+      Base: 10
+      Increase: 10
+    Info:
+      Name: '&aWeb Shooter'
+      Description:
+        - '&7Has a chance to spawn'
+        - '&7a web where the arrow lands.'
+        - ''
+        - '&7Tier: &aUncommon'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dBows'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Disorder:
+    Enabled: true
+    Name: 'Disorder'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Axe'
+    Chance-System:
+      Base: 1
+      Increase: 1
+    Info:
+      Name: '&6Disorder'
+      Description:
+        - '&7Has a chance to reorder'
+        - '&7your enemies hot-bar.'
+        - ''
+        - '&7Tier: &6Legendary'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dAxes'
+        - ''
+    Categories:
+      - 'Legendary'
+  #Do not change this line.
+  Charge:
+    Enabled: true
+    Name: 'Charge'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Axe'
+    Info:
+      Name: '&eCharge'
+      Description:
+        - '&7When you kill an enemy player nearby'
+        - '&7allies and you gain a speed boost.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dAxes'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  Revenge:
+    Enabled: true
+    Name: 'Revenge'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Axe'
+    Info:
+      Name: '&bRevenge'
+      Description:
+        - '&7When a nearby ally is'
+        - '&7killed you receive speed,'
+        - '&7regeneration, and haste.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dAxes'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  BattleCry:
+    Enabled: true
+    Name: 'Battle Cry'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 5
+    Enchantment-Type: 'Axe'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&aBattle Cry'
+      Description:
+        - '&7During combat it has a chance to'
+        - '&7send nearby players flying backwards.'
+        - ''
+        - '&7Tier: &bUncommon'
+        - '&7Max Level: &d5'
+        - '&7Applies To: &dAxes'
+        - ''
+    Categories:
+      - 'Uncommon'
+  #Do not change this line.
+  Famished:
+    Enabled: true
+    Name: 'Famished'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&eFamished'
+      Description:
+        - '&7During combat it has a chance'
+        - '&7to give the enemy hunger.'
+        - ''
+        - '&7Tier: &eHeroic'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dSwords'
+        - ''
+    Categories:
+      - 'Heroic'
+  #Do not change this line.
+  GreenThumb:
+    Enabled: true
+    Name: 'Green Thumb'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 3
+    Enchantment-Type: 'Hoe'
+    Chance-System:
+      Base: 10
+      Increase: 10
+    Info:
+      Name: '&bGreen Thumb'
+      Description:
+        - '&7When right clicking a seedling you'
+        - '&7have a chance to fully grow the plant'
+        - '&7but at the cost of the hoe''s durability.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d3'
+        - '&7Applies To: &dHoes'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  Harvester:
+    Enabled: true
+    Name: 'Harvester'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Hoe'
+    Info:
+      Name: '&bHarvester'
+      Description:
+        - '&7When breaking fully grown crops'
+        - '&7it will break all fully grown crops'
+        - '&7in a 3x3 area of the broken crop.'
+        - ''
+        - '&7Tier: &bRare'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dHoes'
+        - ''
+    Categories:
+      - 'Rare'
+  #Do not change this line.
+  Tiller:
+    Enabled: true
+    Name: 'Tiller'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Hoe'
+    Info:
+      Name: '&fTiller'
+      Description:
+        - '&7When tilling up soil'
+        - '&7it will automatically till soil'
+        - '&7in a 3x3 area of the tilled soil.'
+        - '&7It will also automatically hydrate'
+        - '&7the soil if it is 4 blocks away from'
+        - '&7a water source block.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dHoes'
+        - ''
+    Categories:
+      - 'Common'
+  #Do not change this line.
+  Planter:
+    Enabled: true
+    Name: 'Planter'
+    Color: '&d'
+    BookColor: '&d'
+    MaxPower: 1
+    Enchantment-Type: 'Hoe'
+    Info:
+      Name: '&fPlanter'
+      Description:
+        - '&7When tilling up soil'
+        - '&7it will automatically plant'
+        - '&7a seed in your off-hand or'
+        - '&7in your hot-bar going from the'
+        - '&7right side to the left side.'
+        - ''
+        - '&7Tier: &fCommon'
+        - '&7Max Level: &d1'
+        - '&7Applies To: &dHoes'
+        - ''
+    Categories:
+      - 'Common'
