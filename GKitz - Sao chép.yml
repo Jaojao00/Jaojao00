@@ -1,6 +1,6 @@
 Settings:
   GUI-Size: 27 #Must be a factor of 9.
-  Inventory-Name: '&8God Kits'
+  Inventory-Name: '&d&lGod Kits'
   GUI-Customization: #This allows you to customize unclickable items into your GUI.
   #  - 'Slot:1, Item:STAINED_GLASS_PANE:15, Name: '
 ###################################
