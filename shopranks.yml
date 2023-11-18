@@ -32,6 +32,17 @@ items:
     left_click_commands:                                             
       - '[player] warp framnl'
       - '[close]'
+  giangsinh3:
+    material: RED_SHULKER_BOK
+    slot: 12
+    lore:
+      - '&7&LKhu Fram Sk Giáng Sinh'
+      - ''
+      - ' nhấn để di chuyển sáng khu fram của sự kiện'
+    left_click_commands:                                             
+      - '[player] warp framnl'
+      - '[close]'
+      
 
 
 
