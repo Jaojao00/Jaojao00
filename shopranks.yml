@@ -1,7 +1,7 @@
-menu_title: '&#FFCCFFMENU RANK'
+menu_title: '&#FFCCFFMENU SK GIÁNG SINH'
 open_command:
-  - rank
-  - ranks
+  - GIANGSINH
+  - SKGIANGSINH
 size: 54
 items:
   'filler':
@@ -9,46 +9,28 @@ items:
     amount: 1
     slots:
     - '0-54'
-    display_name: ''
+    display_name: 'sk giang sinh'
 #################################################################
-  vip_rank:
-    material: GOLD_BLOCK
+  giangsinh1:
+    material: GRAY_SHULKER_BOK
     slot: 10
     lore:
-      - '&7Buy &eVip Ranks'
+      - '&7WARP TRADE GIÁNG SINH'
       - ''
-      - '&7- Nhấn chuột trái: &bĐể mua 1 &7giá &a$10.000'
-    left_click_requirement:
-      requirements:
-        has_money:
-        type: has money
-        amount: 10000
-      deny_commands:
-        - '[message] &cbạn không đủ tiền hoặc túi đã đầy!'
+      - ' Nhấn chuột trái: &B ĐỂ DI CHUYỂN'
     left_click_commands:                                             
-      - '[console] lp user %player_name% parent set vip'
-      - '[takemoney] 10000'
-      - '[message] &abạn đã mua &&eVip Ranks &agiá $10000'
+      - '[player] warp tradegiangsinh'
       - '[close]'
 #################################################################
-  pro_rank:
-    material: DIAMOND_BLOCK
-    slot: 15
+  giangsinh2:
+    material: TRAPPED_CHEST
+    slot: 12
     lore:
-      - '&7Buy &BPro Ranks'
+      - '&7&LKhu Fram Sk Giáng Sinh'
       - ''
-      - '&7- Nhấn chuột trái: &bĐể mua 1 &7giá &a$50.000'
-    left_click_requirement:
-      requirements:
-        has_money:
-        type: has money
-        amount: 50000
-      deny_commands:
-        - '[message] &cbạn không đủ tiền hoặc túi đã đầy!'
+      - ' nhấn để di chuyển sáng khu fram'
     left_click_commands:                                             
-      - '[console] lp user %player_name% parent set vip'
-      - '[takemoney] 50000'
-      - '[message] &abạn đã mua &&eVip Ranks &agiá $50000'
+      - '[player] warp framnl'
       - '[close]'
 
 
