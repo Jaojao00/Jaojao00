@@ -1,1 +1,14 @@
+MENU_TITLI: "COMMAND"
+OPEN_COMMAND:
+- SHOPXU
+- SHOPNAPTHE
+SIZE: 54
+left_click_quyremet:
+  requimet
+    type: have printed 
+deny_command: 
+- "[message] bạn cần có quyền để sử dụng lệnh "
 
+
+item:
+ 
