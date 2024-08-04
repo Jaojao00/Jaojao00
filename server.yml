@@ -1,1 +1,21 @@
+menu_title: 'ab'
+open_command: ad
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+items:
+  'teststone':
+    material: STONE
+    data: 1
+    slot: 0
+    display_name: "&aThis is a special stone"
+    lore:
+      - "&aTest1"
+      - "&cTest2"
+      - "&eTest3"
 
