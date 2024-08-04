@@ -18,4 +18,14 @@ items:
       - "&aTest1"
       - "&cTest2"
       - "&eTest3"
+    left_click_requirement: 
+      - '[player] dm open khorutMPV'
+ 
 
+
+
+
+
+
+
+    
