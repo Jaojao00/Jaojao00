@@ -20,7 +20,21 @@ items:
       - "&eTest3"
     left_click_requirement: 
       - '[player] dm open khorutMPV'
- 
+   'test1':
+    material: STONE
+    data: 1
+    slot: 0
+    display_name: "&aThis is a special stone"
+    lore:
+      - "&aTest1"
+      - "&cTest2"
+      - "&eTest3"
+    left_click_requirement:
+      requirements:
+        hastmoney:
+          type: has money
+          amout: 100
+  
 
 
 
