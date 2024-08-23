@@ -7,7 +7,7 @@ open_requirement:
      type: <type>
 size: 36
 items:
-  'filler':
+  filler:
     material: BLACK_STAINED_GLASS_PANE
     amount: 1
     slot:
@@ -31,5 +31,5 @@ items:
     deny_commands:
       - "[message] &7You don't have 1 of the 2 permissions required."
     left_click_commands:
-      - '[deluxmenugui] menu 1'
+      - '[openguimenu] menu 1'
       - '[close]'
